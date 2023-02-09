@@ -1,6 +1,5 @@
 import moviesApp from "../../assest/images/moviesApp.jpg";
 import recipesApp from "../../assest/images/recipesApp.jpg";
-import test from "../../assest/images/test.jpg";
 import educa from "../../assest/images/educa.jpg";
 import apdash from "../../assest/images/apdash.jpg";
 import asma from "../../assest/images/asma.jpg";

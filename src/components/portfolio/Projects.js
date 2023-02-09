@@ -4,7 +4,6 @@ import { BsArrowRightShort } from "react-icons/bs";
 import "./portfolio.css";
 
 const Projects = ({ type }) => {
-  console.log(type);
   return (
     <div className="projects">
       {projectsData.map((item) => {
