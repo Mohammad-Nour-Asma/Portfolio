@@ -64,6 +64,11 @@
 
 }
 
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .project:hover .demo-icon {
     animation: right_arrow 0.8s ease-in infinite;
 }

@@ -24,12 +24,17 @@ const AboutData = () => {
         Frontend developer, I develop web pages, I have 2 years of experience
         and many clients are happy with the projects carried out
       </p>
-      <button className="button">
-        Download CV{" "}
-        <span className="cv-icon">
-          <CgFileDocument />
-        </span>
-      </button>
+      <a
+        href="./cv/Mohammad_Nour Asma_Resume.pdf"
+        download="Mohammad_Nour Asma_Resume"
+      >
+        <button className="button">
+          Download CV{" "}
+          <span className="cv-icon">
+            <CgFileDocument />
+          </span>
+        </button>
+      </a>
     </div>
   );
 };
