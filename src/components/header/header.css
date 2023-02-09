@@ -98,6 +98,7 @@
         bottom: 0.4rem;
         cursor: pointer;
         color: var(--title-color);
+        background-color: var(--body-color);
         transition: .3s;
     }
 
@@ -105,9 +106,10 @@
         display: block;
         cursor: pointer;
         color: var(--title-color);
+        background-color: var(--body-color);
         font-size: 1.3rem;
         transition: .3s;
-        background: white;
+
         margin-bottom: -9px;
     }
 

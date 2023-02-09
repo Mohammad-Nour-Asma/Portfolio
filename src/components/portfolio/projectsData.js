@@ -83,7 +83,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    link: "https://billodesign.netlify.app/",
+    link: "https://meghna12.netlify.app/",
     img: meghna,
     category: "front",
     title: "Meghna",
