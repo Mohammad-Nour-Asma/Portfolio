@@ -1,0 +1,79 @@
+.skills-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.skills-box {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 3px 0 #54545473;
+}
+
+.skills-box h3 {
+    text-align: center;
+
+}
+
+.all-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.15rem;
+    column-gap: 0.4rem;
+    row-gap: 0.8rem;
+}
+
+.skill {
+    display: flex;
+    gap: 0.8rem;
+
+}
+
+.skill span:first-child,
+.skill div:first-child {
+    display: block;
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    font-size: 1.1rem;
+}
+
+.skill .level {
+    font-size: var(--smaller-font-size);
+    text-transform: capitalize;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .skills-cont {
+        grid-template-columns: 1fr;
+
+    }
+
+    .skill {
+        justify-content: center;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .skills-box {
+        padding: 0.8rem;
+
+    }
+
+    .skill span:first-child,
+    .skill div:first-child {
+        font-size: var(--medium-font-size);
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .all-skills {
+        grid-template-columns: 1fr;
+    }
+}

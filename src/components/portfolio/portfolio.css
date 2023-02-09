@@ -1,0 +1,111 @@
+.buttons {
+    margin: 2rem;
+    text-align: center;
+}
+
+.cate-button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.8rem;
+    background-color: var(--body-color);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+
+.cate-button:hover,
+.cate-button.active {
+    color: #fff;
+    background-color: var(--title-color);
+}
+
+.projects {
+    display: grid;
+    gap: 0.8rem;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project {
+    padding: 1rem;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 3px 0 #bbbbbb73;
+    justify-self: center;
+}
+
+.proje ct-img img {
+    max-width: 100%;
+    border-radius: 2px;
+
+}
+
+.project-title {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin: 0.4rem 0 0rem;
+    font-size: 1.1rem;
+}
+
+.tools span {
+    font-size: var(--smaller-font-size);
+    text-transform: capitalize;
+    margin: 0 0.4rem 0 0;
+    color: #4a46468f;
+}
+
+.demo-icon {
+    position: relative;
+    font-size: var(--smaller-font-size);
+    bottom: -5px;
+    font-size: 1.2rem;
+
+
+}
+
+.project:hover .demo-icon {
+    animation: right_arrow 0.8s ease-in infinite;
+}
+
+@keyframes right_arrow {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 4px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project {
+        width: 250px;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project {
+        width: 200px;
+    }
+
+    .cate-button {
+        font-size: var(--small-font-size);
+
+    }
+}

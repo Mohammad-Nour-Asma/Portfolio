@@ -1,0 +1,99 @@
+.about-container .about-info {
+    display: flex;
+
+    align-items: center;
+}
+
+.profile-img {
+    max-width: 80%;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.about-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.about-data p {
+    margin: 2.2rem 0;
+}
+
+button span {
+    bottom: -2px;
+    position: relative;
+    padding-left: 0.2rem;
+}
+
+.about-box {
+    text-align: center;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #dbd5d5;
+
+}
+
+.about-box .about-icon {
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
+
+.about-box h4 {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+}
+
+.about-box h5 {
+    font-size: var(--smaller-font-size);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .about-container .about-info {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .profile-img {
+        max-width: 40%;
+    }
+
+    .about-data {
+        padding: 2.5rem;
+    }
+
+    .about-data p {
+        text-align: center;
+    }
+
+    .about-data .button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profile-img {
+        max-width: 60%;
+    }
+
+    .about-data {
+        padding: 0.2rem;
+    }
+
+    .about-box {
+        padding: 0.8rem;
+    }
+
+
+    .about-boxes {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+}

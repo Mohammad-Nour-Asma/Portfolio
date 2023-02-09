@@ -1,0 +1,30 @@
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.footer-title {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+.footer-icons {
+    margin: 1rem;
+}
+
+.footer-icons a {
+    font-size: 1.3rem;
+    color: var(--title-color);
+    margin: 1rem;
+    transition: .2s;
+}
+
+.footer-icons a:hover {
+    color: var(--title-color-dark);
+
+}
