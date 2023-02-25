@@ -21,8 +21,7 @@ const AboutData = () => {
         />
       </div>
       <p>
-        Frontend developer, I develop web pages, I have 2 years of experience
-        and many clients are happy with the projects carried out
+        Frontend developer, I develop web pages, I have been freelancer and many clients are happy with the projects carried out
       </p>
       <a
         href="./cv/Mohammad_Nour Asma_Resume.pdf"
